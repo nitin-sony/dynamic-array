@@ -12,10 +12,15 @@ public class Loop {
     public static void main(String[] args) {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+<<<<<<< HEAD
         if(Integer.parseInt(N) > 0) {
             for(int i=1; i<=10; i++) {
                 System.out.println(N + " x " + i + " = " + (N * i));
             }
+=======
+        for(int i=1; i<=10; i++) {
+            System.out.println(N + " x " + i + " = " + (N * i));
+>>>>>>> refs/remotes/origin/development
         }
         scanner.close();
     }
