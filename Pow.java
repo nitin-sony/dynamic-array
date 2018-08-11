@@ -11,11 +11,9 @@ class Pow{
             int b = in.nextInt();
             int n = in.nextInt();
             int _new = a + ((int)Math.pow(2,0)*b); 
-            int _old = 0;
             for(int j=1;j<=n;j++){
                 System.out.print(_new + " ");                
                 _new = _new + ((int)Math.pow(2,j)*b);
-                _old = _new;
             }
             System.out.println("");
         }
